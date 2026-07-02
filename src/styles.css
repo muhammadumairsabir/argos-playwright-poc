@@ -257,10 +257,6 @@ dd {
   background: linear-gradient(180deg, #ffffff, var(--accent-soft));
 }
 
-h1 {
-  font-size: clamp(2.2rem, 7vw, 5rem);
-}
-
 @media (max-width: 820px) {
   .page-shell {
     width: min(100% - 20px, 560px);
