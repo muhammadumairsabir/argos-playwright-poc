@@ -7,13 +7,13 @@ app.innerHTML = `
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow">Visual regression POC</p>
-        <h1 id="hero-title">OLI Move visual POC with Playwright and Argos CI</h1>
+        <h1 id="hero-title">Visual POC with Playwright and Argos CI</h1>
         <p class="lead">
           A small app that captures stable UI screenshots in Playwright and uploads them to Argos CI from GitHub Actions.
         </p>
         <div class="hero-actions">
           <a class="button primary" href="#plans">View plans</a>
-          <a class="button secondary" href="#workflow">See workflow</a>
+          <a class="button secondary" href="#workflow">Test Workflow</a>
         </div>
         <p class="runtime-note" data-testid="clock" data-visual-test="blackout">
           Runtime stamp: <span id="clock-value"></span>
