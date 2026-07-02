@@ -4,7 +4,7 @@ import { argosAriaSnapshot, argosScreenshot } from '@argos-ci/playwright';
 test.describe('Argos visual POC', () => {
   test('homepage visual coverage', async ({ page }) => {
     await page.goto('/');
-    await expect(page.getByRole('heading', { name: /OLI Move visual POC/i })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /Visual POC/i })).toBeVisible();
 
     await argosScreenshot(page, 'homepage', {
       ariaSnapshot: true,
