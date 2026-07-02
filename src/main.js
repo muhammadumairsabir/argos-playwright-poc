@@ -39,7 +39,7 @@ app.innerHTML = `
         <article>
           <span>01</span>
           <h3>Capture</h3>
-          <p>Playwright opens the app and `argosScreenshot` records stable screenshots.</p>
+          <p>Playwright opens the app and <code>argosScreenshot</code> records stable screenshots.</p>
         </article>
         <article>
           <span>02</span>
